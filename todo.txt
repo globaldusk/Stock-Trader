@@ -1,0 +1,18 @@
+TODO:
+
+Wireframe
+
+Colour scheme
+
+4 sprints - discuss the 5 stages, each ceremony and artifact
+
+Document the requirements in the report:
+- Document the objectives with a vision statement.
+- Identify the persona of users that would utilise the website (including users that are internal and external to the organisation).
+- Identify the features of the website each persona would use.
+- Construct at least one user story for each feature.
+- Identify the major milestones during the four sprints of the assignment.
+
+High fidelity wire frame - including styling and architecture detail
+
+Find out who all the stakeholders are, analyse their personas, identify features for them, 

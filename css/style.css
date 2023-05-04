@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #252525;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0;
+  color: rgba(199, 192, 241, 0.9960784314);
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.current-price::before{
+    content: "USD $";
+}
+
+.numberOfStock {
+  font-size: 25px;
+}
+
+.sell, .buy {
+  border-radius: 6px;
+  box-shadow: rgba(3, 3, 12, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: flex;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.sell {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+}
+
+.buy {
+  background: #50C878;
+  border: 1px solid #50C878;
+}
+
+.minus, .plus {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.buy:hover,
+.sell:hover,
+.sell:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #50C878;
+}
+
+.buy:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.last-refresh {
+  text-align: center;
+}
+
+.stock-container {
+  padding: 20px 0 20px;
+  display: flex;
+  gap: 0 20px;
+}
+
+.stock-container .stock-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.stock-inventory {
+  gap: 0 10px;
+}
+
+.stock-inventory .wrapper {
+  display: flex;
+  gap: 0 10px;
+  padding: 5px;
+  border: 1px solid #000;
+} /*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */
